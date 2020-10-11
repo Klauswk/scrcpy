@@ -1,0 +1,13 @@
+[package]
+name = "scrcpy"
+version = "0.1.0"
+authors = ["Klaus Klein <klaus.klein@cwi.com.br>"]
+src="app"
+
+[dependencies]
+ffmpeg="4.3@ffmpeg/4.3"
+SDL2="2.0.12@sdl/2.0.12"
+
+[system_dependencies]
+linux=["m","pthread", "z", "dl", "bz2"]
+    
